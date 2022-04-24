@@ -5,10 +5,15 @@ public class User extends UserProfile {
     private int userid = 12345;
     private String password = "";
 
+
     public User(String username, String password, int userid) {
         setUsername(username);
         setPassword(password);
         setUserid(userid);
+    }
+
+    public User(){
+
     }
 
 
